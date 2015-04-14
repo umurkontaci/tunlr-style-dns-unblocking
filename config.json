@@ -285,40 +285,8 @@
       "enabled":true
     },
     {
-      "name":"netflix-ios",
-      "dest_addr":"ios.nccp.netflix.com",
-      "modes":[
-        {
-          "port":80,
-          "mode":"http"
-        },
-        {
-          "port":443,
-          "mode":"https"
-        }
-      ],
-      "catchall":true,
-      "enabled":true
-    },
-    {
       "name":"netflix-xbox",
       "dest_addr":"xbox.nccp.netflix.com",
-      "modes":[
-        {
-          "port":80,
-          "mode":"http"
-        },
-        {
-          "port":443,
-          "mode":"https"
-        }
-      ],
-      "catchall":false,
-      "enabled":true
-    },
-    {
-      "name":"netflix-nrdp-31",
-      "dest_addr":"nccp-nrdp-31.cloud.netflix.net",
       "modes":[
         {
           "port":80,
