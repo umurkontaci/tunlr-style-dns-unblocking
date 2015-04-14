@@ -2032,38 +2032,8 @@
       "catchall":false,
       "enabled":true
     },
-    {
-      "dest_addr" : "cbp-us.nccp.netflix.com",
-      "catchall" : false,
-      "name" : "cbp-us.nccp.netflix.com",
-      "modes" : [
-         {
-            "mode" : "http",
-            "port" : 80
-         },
-         {
-            "mode" : "https",
-            "port" : 443
-         }
-      ],
-      "enabled" : true
-   },
-   {
-      "dest_addr" : "movies1.netflix.com",
-      "catchall" : false,
-      "enabled" : true,
-      "name" : "movies1.netflix.com",
-      "modes" : [
-         {
-            "mode" : "http",
-            "port" : 80
-         },
-         {
-            "port" : 443,
-            "mode" : "https"
-         }
-      ]
-   },
+    
+   
    {
       "modes" : [
          {
@@ -2080,86 +2050,7 @@
       "catchall" : false,
       "dest_addr" : "movies2.netflix.com"
    },
-   {
-      "dest_addr" : "netflix.com",
-      "catchall" : false,
-      "enabled" : true,
-      "name" : "netflix.com",
-      "modes" : [
-         {
-            "mode" : "http",
-            "port" : 80
-         },
-         {
-            "port" : 443,
-            "mode" : "https"
-         }
-      ]
-   },
-   {
-      "catchall" : false,
-      "name" : "moviecontrol.netflix.com",
-      "enabled" : true,
-      "modes" : [
-         {
-            "port" : 80,
-            "mode" : "http"
-         },
-         {
-            "port" : 443,
-            "mode" : "https"
-         }
-      ],
-      "dest_addr" : "moviecontrol.netflix.com"
-   },
-   {
-      "dest_addr" : "api-global.netflix.com",
-      "catchall" : false,
-      "enabled" : true,
-      "name" : "api-global.netflix.com",
-      "modes" : [
-         {
-            "port" : 80,
-            "mode" : "http"
-         },
-         {
-            "mode" : "https",
-            "port" : 443
-         }
-      ]
-   },
-   {
-      "modes" : [
-         {
-            "port" : 80,
-            "mode" : "http"
-         },
-         {
-            "mode" : "https",
-            "port" : 443
-         }
-      ],
-      "name" : "api-us.netflix.com",
-      "enabled" : true,
-      "catchall" : false,
-      "dest_addr" : "api-us.netflix.com"
-   },
-   {
-      "name" : "api.netflix.com",
-      "modes" : [
-         {
-            "port" : 80,
-            "mode" : "http"
-         },
-         {
-            "mode" : "https",
-            "port" : 443
-         }
-      ],
-      "enabled" : true,
-      "catchall" : false,
-      "dest_addr" : "api.netflix.com"
-   },
+  
    {
       "dest_addr" : "www2.netflix.com",
       "enabled" : true,
@@ -2256,38 +2147,7 @@
          }
       ]
    },
-   {
-      "dest_addr" : "uiboot.netflix.com",
-      "name" : "uiboot.netflix.com",
-      "modes" : [
-         {
-            "port" : 80,
-            "mode" : "http"
-         },
-         {
-            "mode" : "https",
-            "port" : 443
-         }
-      ],
-      "enabled" : true,
-      "catchall" : false
-   },
-   {
-      "catchall" : false,
-      "modes" : [
-         {
-            "mode" : "http",
-            "port" : 80
-         },
-         {
-            "port" : 443,
-            "mode" : "https"
-         }
-      ],
-      "name" : "signup.netflix.com",
-      "enabled" : true,
-      "dest_addr" : "signup.netflix.com"
-   },
+  
    {
       "catchall" : false,
       "modes" : [
@@ -2384,38 +2244,7 @@
       "enabled" : true,
       "dest_addr" : "mcdn.netflix.com"
    },
-   {
-      "dest_addr" : "secure.netflix.com",
-      "catchall" : false,
-      "name" : "secure.netflix.com",
-      "enabled" : true,
-      "modes" : [
-         {
-            "mode" : "http",
-            "port" : 80
-         },
-         {
-            "mode" : "https",
-            "port" : 443
-         }
-      ]
-   },
-   {
-      "catchall" : false,
-      "enabled" : true,
-      "name" : "htmltvui-api.netflix.com",
-      "modes" : [
-         {
-            "port" : 80,
-            "mode" : "http"
-         },
-         {
-            "port" : 443,
-            "mode" : "https"
-         }
-      ],
-      "dest_addr" : "htmltvui-api.netflix.com"
-   },
+   
    {
       "dest_addr" : "nccp-ps3.netflix.com",
       "enabled" : true,
